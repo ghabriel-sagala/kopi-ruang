@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-brand-light text-gray-800 antialiased;
+}
+
+/* Custom Scrollbar untuk tampilan lebih pro */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F8F6F0; 
+}
+::-webkit-scrollbar-thumb {
+  background: #1A2E24; 
+  border-radius: 10px;
+}
